@@ -142,3 +142,23 @@ Data Analyst | Tech Enthusiast
 **CV:** *[marioswicaksono](https://www.canva.com/design/DAGlhKwckaQ/vjIw_6NJgrAEq4hVCdpEUw/view?utm_content=DAGlhKwckaQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dd2c26e9d)*
 
 **Portfolio:** *[marioswicaksono](https://www.canva.com/design/DAG38LX1BGw/e-P9BGpUdkNq5SU0OLRN3Q/edit?utm_content=DAG38LX1BGw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)*
+
+---
+
+## ▶️ How to Run the Project
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+2. Run notebooks in order:
+- 01_data_collection.ipynb
+- 02_data_cleaning.ipynb
+- 03_exploratory_analysis.ipynb
+- 04_correlation_lag_analysis.ipynb
+- 05_regression_with_lag.ipynb
+- 06_var_model.ipynb
+3. Open Power BI dashboard:
+   ```bash
+   dashboard/power_bi/test.pbix
+
+---
