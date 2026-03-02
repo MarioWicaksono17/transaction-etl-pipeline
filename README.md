@@ -42,7 +42,7 @@ This structure enables efficient analytical queries and aligns with standard dat
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Python** (Pandas)
 - **PostgreSQL**
