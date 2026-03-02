@@ -4,7 +4,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Build a complete ETL pipeline from processed transactional data
 - Design and implement a **star schema** (fact & dimension tables)
@@ -13,7 +13,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
 
 ---
 
-## 📄 Dataset Overview
+## Dataset Overview
 
 The dataset contains historical retail transaction records, including customer purchases, product details, quantities, unit prices, and transaction dates.  
 It represents a typical retail transactional dataset commonly used for sales analytics and data warehousing use cases.
@@ -22,7 +22,7 @@ It represents a typical retail transactional dataset commonly used for sales ana
 
 ---
 
-## 🏗️ Data Model (Star Schema)
+## Data Model (Star Schema)
 
 **Fact Table**
 - `fact_transactions`
@@ -52,7 +52,7 @@ This structure enables efficient analytical queries and aligns with standard dat
 
 ---
 
-## 🔄 ETL Workflow
+## ETL Workflow
 
 1. **Extract**
    - Load processed transactional CSV data
@@ -70,7 +70,7 @@ This structure enables efficient analytical queries and aligns with standard dat
 
 ---
 
-## 📊 Analytics-Ready Validation
+## Analytics-Ready Validation
 
 After loading the data, analytical SQL queries were executed to validate usability:
 
@@ -84,7 +84,7 @@ These queries confirm that the data model supports real-world business analysis.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 transaction-etl-pipeline/
@@ -113,7 +113,7 @@ transaction-etl-pipeline/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Create PostgreSQL database:
    ```sql
@@ -125,7 +125,7 @@ transaction-etl-pipeline/
    ```
 ---
 
-✅ Key Takeaways
+## Key Takeaways
 - Designed a star schema for analytical workloads
 - Built a reproducible ETL pipeline
 - Resolved real-world data quality issues (duplicates, date mismatches)
@@ -133,7 +133,7 @@ transaction-etl-pipeline/
 
 ---
 
-## 👤 Author
+## Author
 Mario Suryowisnu Wicaksono
 Data Analyst | Tech Enthusiast
 
